@@ -1,5 +1,6 @@
-
-# https://www.section.io/engineering-education/entropy-information-gain-machine-learning/
+# referencing https://www.section.io/engineering-education/entropy-information-gain-machine-learning/
+# before using this code, you should
+# pip install sklearn matplotlib numpy
 
 from sklearn.datasets import load_iris
 import numpy as np
