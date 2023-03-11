@@ -3,7 +3,6 @@
 # pip install sklearn matplotlib numpy
 
 from sklearn.datasets import load_iris
-import pandas as pd
 import numpy as np
 from sklearn import tree
 from matplotlib import pyplot as plt
@@ -22,7 +21,7 @@ def giniIndices(labels):
      gini_index = 1 - np.sum(np.square(norm_counts))
 
 
-print(entropy(['no', 'yes', 'yes', 'no']))
+print(giniIndices(['yes', 'yes', 'yes', 'no']))
 
 # using online data
 # iris = load_iris()
